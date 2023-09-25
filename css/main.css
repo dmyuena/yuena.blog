@@ -2602,11 +2602,11 @@ body {
   }
 }
 body {
-  background: url("/public/images/background.png");
+  background: url("/images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: 50% 20%;
+  background-position: 50% 50%;
 }
 .content-wrap {
   opacity: 0.9;
