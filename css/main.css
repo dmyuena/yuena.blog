@@ -2499,6 +2499,13 @@ header.header {
 .links-of-author-item a:hover {
   background: var(--body-bg-color);
 }
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 .main-inner .sub-menu,
 .main-inner .post-block,
 .main-inner .tabs-comment,
@@ -2595,7 +2602,7 @@ header.header {
   }
 }
 body {
-  background: url("/images/background.png");
+  background: url("/public/images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
