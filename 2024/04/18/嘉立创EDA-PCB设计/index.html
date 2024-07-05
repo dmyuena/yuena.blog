@@ -43,7 +43,7 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/dmyuena/yuena_blog_imgs/image-20240418151145846.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/dmyuena/yuena_blog_imgs/image-20240418151044761.png">
 <meta property="article:published_time" content="2024-04-18T05:05:37.000Z">
-<meta property="article:modified_time" content="2024-06-25T14:07:43.317Z">
+<meta property="article:modified_time" content="2024-07-05T13:23:54.477Z">
 <meta property="article:author" content="chouzhen">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/dmyuena/yuena_blog_imgs/image-20240418134226658.png">
@@ -237,7 +237,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-06-25 22:07:43" itemprop="dateModified" datetime="2024-06-25T22:07:43+08:00">2024-06-25</time>
+      <time title="修改时间：2024-07-05 21:23:54" itemprop="dateModified" datetime="2024-07-05T21:23:54+08:00">2024-07-05</time>
     </span>
 
   
@@ -253,7 +253,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>623</span>
+      <span>932</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -326,7 +326,16 @@
 <p><img src="https://cdn.jsdelivr.net/gh/dmyuena/yuena_blog_imgs/image-20240424153001766.png" alt="image-20240424153001766"></p>
 <h1 id="熟悉嘉立创EDA"><a href="#熟悉嘉立创EDA" class="headerlink" title="熟悉嘉立创EDA"></a>熟悉嘉立创EDA</h1><p><img src="https://cdn.jsdelivr.net/gh/dmyuena/yuena_blog_imgs/image-20240418151145846.png" alt="image-20240418151145846"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/dmyuena/yuena_blog_imgs/image-20240418151044761.png" alt="image-20240418151044761"></p>
-<p>学完RTOS来填坑</p>
+<p>ALT + W 导线<br>ALT + N 标签<br>ALT + T 顶层<br>ALT + B 二层</p>
+<p>空格   翻转<br>ALT +T 文本<br>CTRL + SHIFT + x  布局传递  原理图 —&gt;PCB</p>
+<p>二极管 银色的环 对着 有杠的一边</p>
+<p>LED 长为正 短为负 内部 小头为正<br>    带横杠的地方 接地 （负极）<br>    器件上  带绿色的地方是 接地</p>
+<p>差分布线</p>
+<p>问题：RST把一个框 把GND围起来了，</p>
+<p>滤波  大电容 小电容  主控</p>
+<p>线不能斜着<br>按键最好在顶层<br>跳线上面 不能放发热器件<br>跳线 与发光二极管的距离 拉开</p>
+<p>抗干扰设计原则<br>    电源设计<br>        加宽电源线<br>        保证电源线，底层走向和数据传输方向<br>        使用抗干扰元器件<br>        电源入口添加去耦电容<br>    元器件配置<br>        不能有过长的平行信号线<br>        时钟发生器，晶振，CPU时钟输入端尽量靠近。远离低频器件<br>        元器件围绕核心器件配置，减少引线长度<br>        缩短 高频元器件之间的引线</p>
+<p>热设计原则</p>
 
     </div>
 
